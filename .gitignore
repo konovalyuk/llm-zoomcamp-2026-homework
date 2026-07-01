@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ONNX models (HW2)
+models/
+hw2/embed/models/
+
+# PyCharm
+.idea/
