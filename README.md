@@ -31,10 +31,10 @@ cp .env.example .env   # add your OPENAI_API_KEY
 
 | Folder | Module | Status |
 |--------|--------|--------|
-| `hw1/` | Agentic RAG | submitted |
-| `hw2/` | Vector Search | in progress |
-| `hw3/` | Orchestration (Kestra) | — |
-| `hw4/` | Evaluation | — |
+| `hw1/` | Agentic RAG | done |
+| `hw2/` | Vector Search | done |
+| `hw3/` | Orchestration (Kestra) | done (Q3–Q5 need local Kestra run) |
+| `hw4/` | Evaluation | done (Q1 needs API key) |
 | `hw5/` | Monitoring | waiting for assignment |
 
 Shared code for loading course lessons (commit `8c1834d`, 72 pages):
@@ -42,17 +42,12 @@ Shared code for loading course lessons (commit `8c1834d`, 72 pages):
 - `shared/load_lessons.py`
 - `shared/chunks.py` — `chunk_documents(size=2000, step=1000)`
 
-## HW2: download ONNX model
-
-```bash
-cd hw2/embed
-uv run python download.py
-```
-
 ## Run
 
 ```bash
+uv run python hw1/hw1.py
 uv run python hw2/hw2.py
+uv run python hw4/hw4.py
 ```
 
 Homework form answers go in `hw*/README.md`.
