@@ -35,7 +35,8 @@ cp .env.example .env   # add your OPENAI_API_KEY
 | `hw2/` | Vector Search | done |
 | `hw3/` | Orchestration (Kestra) | done (Q3–Q5 need local Kestra run) |
 | `hw4/` | Evaluation | done (Q1 needs API key) |
-| `hw5/` | Monitoring | waiting for assignment |
+| `hw5/` | Monitoring (OpenTelemetry) | done (needs API key to re-verify) |
+| `dlt-workshop/` | dlt + Logfire workshop | code ready (needs OpenAI + Logfire tokens) |
 
 Shared code for loading course lessons (commit `8c1834d`, 72 pages):
 

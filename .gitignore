@@ -221,5 +221,12 @@ __marimo__/
 models/
 hw2/embed/models/
 
+# HW5 / dlt workshop local artifacts
+hw5/traces.db
+*.duckdb
+*.duckdb.wal
+dlt-workshop/.dlt/pipelines/
+.dlt/
+
 # PyCharm
 .idea/
